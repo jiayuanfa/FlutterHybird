@@ -6,11 +6,27 @@ pluginManagement {
     }
 }
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
+
     repositories {
         google()
         mavenCentral()
+
+        // Flutter打包本地aar依赖
+//        maven {
+//            url '/Users/jiayuanfa/Desktop/flutter_hybrid/flutter_module/build/host/outputs/repo'
+//        }
+//        maven { url "https://storage.googleapis.com/download.flutter.io" }
     }
 }
 rootProject.name = "FlutterHybridAndroid"
 include ':app'
+
+setBinding(new Binding([gradle: this]))                                 // new
+evaluate(new File(                                                      // new
+        settingsDir.parentFile,                                                // new
+        'flutter_module/.android/include_flutter.groovy'// new
+))
+
+include ':flutter_module'
+project(':flutter_module').projectDir = new File('../flutter_module')
