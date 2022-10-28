@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'dart:ui';
 
 void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  final String? initParams;
+
+  const MyApp({super.key, this.initParams = ''});
 
   // This widget is the root of your application.
   @override
@@ -21,13 +24,13 @@ class MyApp extends StatelessWidget {
         // counter didn't reset back to zero; the application is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: '1Flutter Demo Home Page'),
+      home: const MyHomePage(title: '3Flutter Demo Home Page', initParams: ''),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
+  const MyHomePage({super.key, required this.title, String initParams = ''});
 
   // This widget is the home page of your application. It is stateful, meaning
   // that it has a State object (defined below) that contains fields that affect
