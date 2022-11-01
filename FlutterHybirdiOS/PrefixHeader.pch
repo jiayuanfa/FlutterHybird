@@ -1,0 +1,121 @@
+//
+//  PrefixHeader.pch
+//  FlutterHybirdiOS
+//
+//  Created by 贾元发 on 1.11.22.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Masonry.h"
+#import "UIColor+Extension.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define  RHScaleWidth             (RHScreenW / 375.0f)
+#define  RHScaleHeight            (RHScreenH / 812.0f)
+#define RHWidth(px)  (px * RHScaleWidth)
+#define RHHeigth(px)  (px * RHScaleHeight)
+
+
+// 图片
+#define RHImg(ImgName) [UIImage imageNamed:ImgName]
+// 默认图片
+#define RHDefaultImg RHImg(@"my_portrait")
+// 字体
+#define RHSacleFont(px) [UIFont systemFontOfSize:(RHScreenW * (px)/375)] //字体适配
+#define RHSacleBFont(px) [UIFont boldSystemFontOfSize:(RHScreenW * (px)/375)] //粗体适配
+//颜色
+#define RHColor(colorString) [UIColor colorFromHexString:colorString]
+
+// 屏幕宽度
+#define RHScreenW [UIScreen mainScreen].bounds.size.width
+// 屏幕高度
+#define RHScreenH [UIScreen mainScreen].bounds.size.height
+//页面背景色
+#define RH_BGColor [UIColor colorFromHexString:@"#FFFFFFF"]//背景色
+#define RH_MainColor [UIColor colorFromHexString:@"#e4c284"]// 主色调
+#define RH_Seperator_Color [UIColor colorFromHexString:@"#EFEFEF"]//分割线
+#define RH_Nav_Color [UIColor colorFromHexString:@"#040404"]//导航栏
+#define RH_Auxiliary_Redcolor [UIColor colorFromHexString:@"#F24E3F"]//辅助红色
+#define RH_Auxiliary_GreenColor [UIColor colorFromHexString:@"#4bdd89"]//辅助绿色
+#define RH_Secondary_YellowTextColor [UIColor colorFromHexString:@"#a6926f"]//二级字体黄色
+#define RH_Secondary_GrayTextColor [UIColor colorFromHexString:@"#999999"]//二级字体灰色
+#define RH_WitheTextColor [UIColor colorFromHexString:@"#FFFFFF"] //字体白色
+
+#define RH_BlackTextColor [UIColor colorFromHexString:@"#333333"] //字体黑色
+
+#define RH_GragBtnColor [UIColor colorFromHexString:@"#D4D4D4"] //按钮灰色
+#define RH_MainBtnColor [UIColor colorForFadeBetweenFirstColor:RHColor(@"#FCDF8C") secondColor:RHColor(@"#E4C284") atRatio:0.5] //按钮灰色
+#define RH_BlueColor [UIColor colorFromHexString:@"#3287FF"]//蓝色
+
+#define RH_RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define RH_RGB(r,g,b) RH_RGBA(r,g,b,1.0f)
+
+#define UIColorFromRGBA(rgbValue, alphaValue) [UIColor \
+colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0x00FF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0x0000FF))/255.0 \
+alpha:alphaValue]
+
+#define UIColorFromRGB(rgbValue) UIColorFromRGBA(rgbValue, 1.0)
+
+// 屏幕宽度比例
+#define  RHScaleWidth             (RHScreenW / 375.0f)
+#define  RHScaleHeight            (RHScreenH / 812.0f)
+#define RHWidth(px)  (px * RHScaleWidth)
+#define RHHeigth(px)  (px * RHScaleHeight)
+// 状态栏高度
+#define StatusBarHeight         [[UIApplication sharedApplication] statusBarFrame].size.height
+// 导航栏高度
+#define RHNavigationBarHeight   (StatusBarHeight + 44)
+
+#define RHAdaptW(floatValue) (floatValue * RHScreenW /375.0)
+
+//分割距离
+#define RHMarginSpace 5
+
+#define IOS11 ([[[UIDevice currentDevice] systemVersion] doubleValue] >= 11.0)
+
+#define IPHONE_X \
+({BOOL isPhoneX = NO;\
+if (@available(iOS 11.0, *)) {\
+isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0;\
+}\
+(isPhoneX);})
+
+#define RHSafeBottomHeight  (IPHONE_X ? 34.f : 0.f)
+
+#define RHTabBarHeight (RHSafeBottomHeight + 49)
+
+#define TG_SuppressPerformSelectorLeakWarning(Stuff) \
+do { \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"") \
+Stuff; \
+_Pragma("clang diagnostic pop") \
+} while (0)
+
+#define ROOTNAV [(AppDelegate *)([UIApplication sharedApplication].delegate) currentNavigationController]
+#define TOPVC [(AppDelegate *)([UIApplication sharedApplication].delegate) topController]
+
+
+#define isiPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define kDevice_Is_iPhoneX \
+({BOOL isPhoneX = NO;\
+if (@available(iOS 11.0, *)) {\
+isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0;\
+}\
+(isPhoneX);})
+
+
+#define IPX_STATUSBAROFFSETHEIGHT   ((kDevice_Is_iPhoneX) ? 24.0 : 0.0)
+#define IPX_HOMEINDICATORHEIGHT     ((kDevice_Is_iPhoneX) ? 34.0 : 0.0)
+
+#define STATUSBARHEIGHT         (20.0 + IPX_STATUSBAROFFSETHEIGHT)
+#define NAVIBARHEIGHT           44.0
+#define tabBarItemHeight            ((kDevice_Is_iPhoneX) ? 83.0 : 49.0)
+
+#endif /* PrefixHeader_pch */

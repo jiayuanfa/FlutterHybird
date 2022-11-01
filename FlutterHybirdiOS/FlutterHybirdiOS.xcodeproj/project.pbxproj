@@ -8,8 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0649B10087E8F3D0BE31ED84 /* Pods_FlutterHybirdiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F7C24AB6D9C5DBA79D787A /* Pods_FlutterHybirdiOSTests.framework */; };
+		2EC9A9D92910CE8E009CB594 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC9A9D82910CE8E009CB594 /* FirstViewController.m */; };
+		2EC9A9DC2910CF55009CB594 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC9A9DB2910CF55009CB594 /* MainViewController.m */; };
+		2EC9A9DF29111C99009CB594 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED02598290B78E30002B509 /* Main.storyboard */; };
+		2EC9A9E029111C9A009CB594 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED02598290B78E30002B509 /* Main.storyboard */; };
+		2EC9A9E629112D56009CB594 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC9A9E429112D56009CB594 /* UIColor+Extension.m */; };
 		2ED02591290B78E30002B509 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED02590290B78E30002B509 /* AppDelegate.m */; };
-		2ED02594290B78E30002B509 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED02593290B78E30002B509 /* SceneDelegate.m */; };
 		2ED02597290B78E30002B509 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED02596290B78E30002B509 /* ViewController.m */; };
 		2ED0259A290B78E30002B509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED02598290B78E30002B509 /* Main.storyboard */; };
 		2ED0259C290B78E50002B509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ED0259B290B78E50002B509 /* Assets.xcassets */; };
@@ -40,11 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EC9A9D72910CE8E009CB594 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		2EC9A9D82910CE8E009CB594 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		2EC9A9DA2910CF55009CB594 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2EC9A9DB2910CF55009CB594 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2EC9A9DE29111C97009CB594 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		2EC9A9E129112765009CB594 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2EC9A9E429112D56009CB594 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		2EC9A9E529112D56009CB594 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
 		2ED0258C290B78E30002B509 /* FlutterHybirdiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlutterHybirdiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED0258F290B78E30002B509 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2ED02590290B78E30002B509 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2ED02592290B78E30002B509 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		2ED02593290B78E30002B509 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		2ED02595290B78E30002B509 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2ED02596290B78E30002B509 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2ED02599290B78E30002B509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -99,6 +109,7 @@
 		2ED02583290B78E30002B509 = {
 			isa = PBXGroup;
 			children = (
+				2EC9A9E129112765009CB594 /* PrefixHeader.pch */,
 				2ED0258E290B78E30002B509 /* FlutterHybirdiOS */,
 				2ED025AA290B78E50002B509 /* FlutterHybirdiOSTests */,
 				2ED025B4290B78E50002B509 /* FlutterHybirdiOSUITests */,
@@ -121,12 +132,16 @@
 		2ED0258E290B78E30002B509 /* FlutterHybirdiOS */ = {
 			isa = PBXGroup;
 			children = (
+				2EC9A9E529112D56009CB594 /* UIColor+Extension.h */,
+				2EC9A9E429112D56009CB594 /* UIColor+Extension.m */,
 				2ED0258F290B78E30002B509 /* AppDelegate.h */,
 				2ED02590290B78E30002B509 /* AppDelegate.m */,
-				2ED02592290B78E30002B509 /* SceneDelegate.h */,
-				2ED02593290B78E30002B509 /* SceneDelegate.m */,
 				2ED02595290B78E30002B509 /* ViewController.h */,
 				2ED02596290B78E30002B509 /* ViewController.m */,
+				2EC9A9D72910CE8E009CB594 /* FirstViewController.h */,
+				2EC9A9D82910CE8E009CB594 /* FirstViewController.m */,
+				2EC9A9DA2910CF55009CB594 /* MainViewController.h */,
+				2EC9A9DB2910CF55009CB594 /* MainViewController.m */,
 				2ED02598290B78E30002B509 /* Main.storyboard */,
 				2ED0259B290B78E50002B509 /* Assets.xcassets */,
 				2ED0259D290B78E50002B509 /* LaunchScreen.storyboard */,
@@ -188,6 +203,7 @@
 				2ED02588290B78E30002B509 /* Sources */,
 				2ED02589290B78E30002B509 /* Frameworks */,
 				2ED0258A290B78E30002B509 /* Resources */,
+				4986D6A21D83A57E208CEC08 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,6 +245,7 @@
 				2ED025AE290B78E50002B509 /* Frameworks */,
 				2ED025AF290B78E50002B509 /* Resources */,
 				991C7165F4A26F890B1DE5CB /* [CP-User] Embed Flutter Build flutter_module Script */,
+				8C5FB4E28D473E7D89446C5E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -297,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EC9A9DF29111C99009CB594 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EC9A9E029111C9A009CB594 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +345,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed   \n";
+		};
+		4986D6A21D83A57E208CEC08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlutterHybirdiOS/Pods-FlutterHybirdiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlutterHybirdiOS/Pods-FlutterHybirdiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlutterHybirdiOS/Pods-FlutterHybirdiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		60F29CADCCC34FCE86776168 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -369,6 +405,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C5FB4E28D473E7D89446C5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8F81CB1949A1762FA597486A /* [CP-User] Run Flutter Build flutter_module Script */ = {
@@ -441,9 +494,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ED02597290B78E30002B509 /* ViewController.m in Sources */,
+				2EC9A9E629112D56009CB594 /* UIColor+Extension.m in Sources */,
 				2ED02591290B78E30002B509 /* AppDelegate.m in Sources */,
 				2ED025A2290B78E50002B509 /* main.m in Sources */,
-				2ED02594290B78E30002B509 /* SceneDelegate.m in Sources */,
+				2EC9A9DC2910CF55009CB594 /* MainViewController.m in Sources */,
+				2EC9A9D92910CE8E009CB594 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +539,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2ED02599290B78E30002B509 /* Base */,
+				2EC9A9DE29111C97009CB594 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -620,6 +676,7 @@
 				ENABLE_BITCODE = NO;
 				FLUTTER_APPLICATION_PATH = /Users/jiayuanfa/Desktop/flutter_hybrid/flutter_module;
 				FLUTTER_ROOT = /Users/jiayuanfa/Desktop/FlutterSDK/flutter;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FlutterHybirdiOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -650,6 +707,7 @@
 				ENABLE_BITCODE = NO;
 				FLUTTER_APPLICATION_PATH = /Users/jiayuanfa/Desktop/flutter_hybrid/flutter_module;
 				FLUTTER_ROOT = /Users/jiayuanfa/Desktop/FlutterSDK/flutter;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FlutterHybirdiOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

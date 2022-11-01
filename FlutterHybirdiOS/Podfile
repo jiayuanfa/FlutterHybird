@@ -6,6 +6,8 @@ target 'FlutterHybirdiOS' do
   use_frameworks!
 
   # Pods for FlutterHybirdiOS
+  
+  pod 'Masonry'
 
 	flutter_application_path = '../flutter_module'
 	load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')

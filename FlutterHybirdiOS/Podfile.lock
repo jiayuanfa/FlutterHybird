@@ -2,10 +2,16 @@ PODS:
   - Flutter (1.0.0)
   - FlutterPluginRegistrant (0.0.1):
     - Flutter
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - Flutter (from `../flutter_module/.ios/Flutter`)
   - FlutterPluginRegistrant (from `../flutter_module/.ios/Flutter/FlutterPluginRegistrant`)
+  - Masonry
+
+SPEC REPOS:
+  trunk:
+    - Masonry
 
 EXTERNAL SOURCES:
   Flutter:
@@ -16,7 +22,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
   FlutterPluginRegistrant: 58acfb6cb31ee4ca14f920aba101815efda113ee
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 8add93e9d2a743cf3e11bf9968bebdfca9276e08
+PODFILE CHECKSUM: 1f2351179474d15a34ecb53593aea47be6df5e79
 
 COCOAPODS: 1.11.3

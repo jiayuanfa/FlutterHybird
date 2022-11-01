@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "收到Dart消息："; ObjectID = "1t4-xT-aC2"; */
+"1t4-xT-aC2.text" = "收到Dart消息：";
+
+/* Class = "UILabel"; text = "EventChannel"; ObjectID = "5oM-9A-Mzl"; */
+"5oM-9A-Mzl.text" = "EventChannel";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "Hu0-e0-vd9"; */
+"Hu0-e0-vd9.normalTitle" = "Back";
+
+/* Class = "UITextField"; placeholder = "初次加载Flutter传递的数据"; ObjectID = "LlN-5N-g4E"; */
+"LlN-5N-g4E.placeholder" = "初次加载Flutter传递的数据";
+
+/* Class = "UILabel"; text = "通信与混合开发"; ObjectID = "iVX-N1-bjA"; */
+"iVX-N1-bjA.text" = "通信与混合开发";
+
+/* Class = "UIButton"; normalTitle = "GO TO"; ObjectID = "yyR-ad-rUB"; */
+"yyR-ad-rUB.normalTitle" = "GO TO";

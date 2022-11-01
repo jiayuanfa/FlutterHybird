@@ -6,9 +6,7 @@ import 'dart:ui';
 
 import 'package:flutter/services.dart';
 
-void main() => runApp(const MyApp(
-      initParams: "",
-    ));
+void main() => runApp(const MyApp(initParams: ''));
 
 /// Flutter与iOS、Android混编的通信实现
 class MyApp extends StatelessWidget {

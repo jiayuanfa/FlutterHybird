@@ -8,6 +8,7 @@
 #import <Flutter/Flutter.h>
 #import "ViewController.h"
 #import "AppDelegate.h"
+#import "FirstViewController.h"
 
 @interface ViewController ()
 
@@ -35,11 +36,17 @@
     
     
     // 使用FlutterEngine打开Flutter页面
-    FlutterEngine *flutterEngine =
-            ((AppDelegate *)UIApplication.sharedApplication.delegate).flutterEngine;
-        FlutterViewController *flutterViewController =
-            [[FlutterViewController alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
-        [self presentViewController:flutterViewController animated:YES completion:nil];
+//    FlutterEngine *flutterEngine =
+//            ((AppDelegate *)UIApplication.sharedApplication.delegate).flutterEngine;
+//        FlutterViewController *flutterViewController =
+//            [[FlutterViewController alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
+//        [self presentViewController:flutterViewController animated:YES completion:nil];
+    
+//    FirstViewController *fvc = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
+//    [self.navigationController pushViewController:fvc animated:YES];
+    
+    // 第一种方法 通过storyBord的名字 取得SB再通过通过SB调用instantiateViewControllerWithIdentifier取得VC
+    [self.navigationController pushViewController:[FirstViewController new] animated:YES];
 }
 
 @end

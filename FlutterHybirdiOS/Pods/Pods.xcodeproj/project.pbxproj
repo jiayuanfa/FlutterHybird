@@ -19,112 +19,191 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		069BC52870608763DFAE255B9ABAB064 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B464620AFAEB7AFA95841C2F7871B8DA /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32DA59634B22BA20983E9C7D56EB0EB7 /* Pods-FlutterHybirdiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32D0C53E013E0921939332FAC3189203 /* Pods-FlutterHybirdiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38BDB5EF3FDFC4780F133968B3D00724 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3EAAA036D13D1D3DBC9C0404C7A829B1 /* Pods-FlutterHybirdiOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CB9420D1D9514D41FFA6B860689BDF /* Pods-FlutterHybirdiOSTests-dummy.m */; };
-		520BAC66C710199BCFC53FFC25177FE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6A0EEDB2DE0558D0B1A8C8F5CDD77D7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8F32674211F3ED5FE0203B23257BD23D /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC8B5A5EB3656C7F195B432F905BB47 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-dummy.m */; };
-		8FD1615F2D73AE5F419DE53B2755603C /* Pods-FlutterHybirdiOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 686E6649A86B9C2E8BBFE8730A5FC274 /* Pods-FlutterHybirdiOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E8CCAE597756C61B2D7B60EEF4A29E4 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19300CF68F5718C6F9C3476F1A98C1DC /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
+		1B433A1BF92BBD5811F61A000E4771C2 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26D291DC43ADE1116BAF1BF866BDB4D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		2839E3707C14798138E8A0C72ACE4C25 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31F7C35C8863FA25A741A884E21BE7D0 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38BDB5EF3FDFC4780F133968B3D00724 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		3D0EFFE30E3193932A034220E3C4C0FA /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EAAA036D13D1D3DBC9C0404C7A829B1 /* Pods-FlutterHybirdiOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D269AB5C37F1724D1197B55E81A52A64 /* Pods-FlutterHybirdiOSTests-dummy.m */; };
+		4CC9B43AD90714A316815FAA71DC89A2 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
+		53305278F1654F968B4E02DF71B098BE /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
+		54BEFE9F75005D327641073B838C6776 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
+		567ABE0681AA82748435E32386DE12D7 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
+		5DB27409D0D63F47C2F416DAEB229519 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F42A4863F38A69450C173F0BA928748 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-dummy.m */; };
+		61225B0B9AEC591476E30C9A575013B3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A0EEDB2DE0558D0B1A8C8F5CDD77D7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		6A9B285FE462E275C50D56B94F72B246 /* Pods-FlutterHybirdiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A62E2B4E58B69FD604C2E516BA2F17BB /* Pods-FlutterHybirdiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		715AB2C777F6FCAB5EE0C667A909B698 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78251F42EB680FB72F040A1986279CD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		7B05A8DE072977F90AA84A0E98E23167 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
+		8171D105E2C5CD3C1357D544942B4446 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		8275FB2C979371BD6F5B2FBB19BA19AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		8AE868BC3E2E6FC92F4717835180C47D /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FD1615F2D73AE5F419DE53B2755603C /* Pods-FlutterHybirdiOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B306E51A372C2E16373F249C5B9B69C /* Pods-FlutterHybirdiOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1336977ADAAD492D6CFD089A8C6E358 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
+		A83A6757F6C0003332D57B41FE24BEEA /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF07860509508B0B04FCFA9651ADB9CB /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 418D326D4F4E80A5FFD5A7D5C898FFAE /* GeneratedPluginRegistrant.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		CDA1E1CDFD642100000AACA8D6DFF8C1 /* Pods-FlutterHybirdiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E61853F4BC980592FE9B33D7C6C2EE95 /* Pods-FlutterHybirdiOS-dummy.m */; };
+		B10646B6AF73D470221EF25A5DEEEB6F /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4BE7728D87333785F811FED48CF134E /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61AA5459C2B345AD6D84D8A5111C9CE /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE050DABC9BF806B3379AFD2367F4194 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEA99A49E5F8DA685E33DABA606041FF /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7D83D99D755676EF8A09CC77845BAF4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		C9375F078B54A9030D4B9C2E73222A5D /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
+		CECDB459AFB5AD0040AF86378F2DBF97 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
+		CEE7BDCC3F3073CBBF7A76BC6CF3E519 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB9621EE73F1EF8DF47831E5A830463B /* GeneratedPluginRegistrant.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB942381338871235EDE2D21ACF8885 /* GeneratedPluginRegistrant.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3D837330AA3A84258FE47D290F97FCC /* FlutterPluginRegistrant-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 727E3D3D6296386D770889778669B940 /* FlutterPluginRegistrant-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E53FCD0CD1526B53074ED4EEF00131E9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6FB269534400D40C1CE67D18EDD8A9A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
 		EEEB61B1EF6CB43D93A55150E49DEFEC /* FlutterPluginRegistrant-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9463190914FEFD41D9798944B8CB0EFB /* FlutterPluginRegistrant-dummy.m */; };
-		F88BD72988E86B34289D7BDBC1F3F086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FE86657ACDD50C49A818D89E9158CDBE /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8F3E6FE548D82BC4736420176BDF78 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEB704BF6146E1D64DCDA60A91935CE2 /* Pods-FlutterHybirdiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B464DB19EC34475CDF38179C150D236 /* Pods-FlutterHybirdiOS-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A518C594CEC6767417FD2DB3EE507928 /* PBXContainerItemProxy */ = {
+		34301D8610C085E70A519B5330CF95DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83DAA8F43D74F8D51203DE23C7C3A3F5;
+			remoteInfo = FlutterPluginRegistrant;
+		};
+		5ADA24E09F2961D143866857FD686DFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83DAA8F43D74F8D51203DE23C7C3A3F5;
+			remoteInfo = FlutterPluginRegistrant;
+		};
+		618AC6C72E564E140B3561C4FAF280C8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
 			remoteInfo = Flutter;
 		};
-		AF08F32681D03B7DDBC49FCC12920042 /* PBXContainerItemProxy */ = {
+		67A36DDC68B16967DDCC44194E725164 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		CABDCA0A6644F4CE6E3047C9D41A0264 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3D83685255C03D119C42A7D134476762;
 			remoteInfo = "Pods-FlutterHybirdiOS";
 		};
-		B5AA9944EF813F0FD77DC64A30A3507A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 83DAA8F43D74F8D51203DE23C7C3A3F5;
-			remoteInfo = FlutterPluginRegistrant;
-		};
-		DD9C11BD56E390E291C7D3A43271A115 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 83DAA8F43D74F8D51203DE23C7C3A3F5;
-			remoteInfo = FlutterPluginRegistrant;
-		};
-		E1E0D5B0F1FFA155A534565876D75ACD /* PBXContainerItemProxy */ = {
+		CD194855D52C59F54AA9A0EEA13DD669 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
 			remoteInfo = Flutter;
 		};
-		EA75FF49A29D09DBB0F22C2BF48E71B1 /* PBXContainerItemProxy */ = {
+		D32B093463E1FCEFDDDB841BDF434758 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
 			remoteInfo = Flutter;
+		};
+		E2575D94500998041D2D4C86C00A5DCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		030DA2A75339953DE46812B021F55962 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.modulemap"; sourceTree = "<group>"; };
-		0AA477974CC04397917783442F799422 /* Pods-FlutterHybirdiOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlutterHybirdiOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		0F633B5474D7FD0C175E38BC171AF798 /* FlutterPluginRegistrant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterPluginRegistrant.release.xcconfig; sourceTree = "<group>"; };
 		12C7D1FBBFD42700B443950DDB7EE2C8 /* Pods-FlutterHybirdiOSTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FlutterHybirdiOSTests"; path = Pods_FlutterHybirdiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1357D30670313CA73C499314D244DD0C /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		163F6B3DD29D33C625D8215E6D3B1627 /* Pods-FlutterHybirdiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlutterHybirdiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B464DB19EC34475CDF38179C150D236 /* Pods-FlutterHybirdiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlutterHybirdiOS-dummy.m"; sourceTree = "<group>"; };
 		1BB942381338871235EDE2D21ACF8885 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeneratedPluginRegistrant.h; path = Classes/GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
-		25F7394CFE37EFF18E385EF9F2D3F79B /* Pods-FlutterHybirdiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlutterHybirdiOS.debug.xcconfig"; sourceTree = "<group>"; };
-		28ED901910F89188616843149C09D4D3 /* Pods-FlutterHybirdiOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlutterHybirdiOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		317AA6676D1B9C152D1AA45BDA655C9D /* Pods-FlutterHybirdiOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlutterHybirdiOS-Info.plist"; sourceTree = "<group>"; };
+		1C3E4F578030800576E2829F280ED63C /* Pods-FlutterHybirdiOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlutterHybirdiOS-frameworks.sh"; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2515C0718795C5109B33EE7978E913D9 /* Pods-FlutterHybirdiOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlutterHybirdiOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		294D467A06D26B9E728374BFB0991D77 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F42A4863F38A69450C173F0BA928748 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-dummy.m"; sourceTree = "<group>"; };
+		30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		322A94E6A8A9A7B199F1D662A50D6B77 /* FlutterPluginRegistrant.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FlutterPluginRegistrant.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		32D0C53E013E0921939332FAC3189203 /* Pods-FlutterHybirdiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlutterHybirdiOS-umbrella.h"; sourceTree = "<group>"; };
-		39CB9420D1D9514D41FFA6B860689BDF /* Pods-FlutterHybirdiOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlutterHybirdiOSTests-dummy.m"; sourceTree = "<group>"; };
+		342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		36DCA50EB54356FD21EFA792010E378A /* Pods-FlutterHybirdiOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlutterHybirdiOS-Info.plist"; sourceTree = "<group>"; };
+		36E46849ABDA2C0B455ECE864A082B67 /* Pods-FlutterHybirdiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlutterHybirdiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
 		418D326D4F4E80A5FFD5A7D5C898FFAE /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GeneratedPluginRegistrant.m; path = Classes/GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
-		4BC8B5A5EB3656C7F195B432F905BB47 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-dummy.m"; sourceTree = "<group>"; };
-		4E9C4EB42E721880146FE90BC884DCCA /* Pods-FlutterHybirdiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlutterHybirdiOS.modulemap"; sourceTree = "<group>"; };
+		419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		45C8EE44315A5245BDF4FF6DDA3C9E51 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-frameworks.sh"; sourceTree = "<group>"; };
+		470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		4FDE75E8E002B854A76D6729614200AA /* Pods-FlutterHybirdiOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FlutterHybirdiOS"; path = Pods_FlutterHybirdiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		51D871755D0EE80F546F48810E4B287F /* Pods-FlutterHybirdiOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlutterHybirdiOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		54DD8526AC25194ADB885812BFF272F6 /* FlutterPluginRegistrant-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlutterPluginRegistrant-Info.plist"; sourceTree = "<group>"; };
-		55680F9F0623F710E5D32B5A32A21FFF /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
-		61E338D14D710CD38CBD6331AAC90670 /* Pods-FlutterHybirdiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlutterHybirdiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		629329B40966B71B43B140F1DFD68B9C /* Pods-FlutterHybirdiOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlutterHybirdiOSTests.modulemap"; sourceTree = "<group>"; };
-		686E6649A86B9C2E8BBFE8730A5FC274 /* Pods-FlutterHybirdiOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlutterHybirdiOSTests-umbrella.h"; sourceTree = "<group>"; };
-		6DB801B665B241DEC17956DCD8A327A4 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-Info.plist"; sourceTree = "<group>"; };
-		6E68EBAB9DAFD908889F3D00B69D77AB /* Pods-FlutterHybirdiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlutterHybirdiOS.release.xcconfig"; sourceTree = "<group>"; };
+		55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		5B306E51A372C2E16373F249C5B9B69C /* Pods-FlutterHybirdiOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlutterHybirdiOSTests-umbrella.h"; sourceTree = "<group>"; };
+		607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		6C8785CD4E2C77DB5AB76EE6C9987C38 /* Pods-FlutterHybirdiOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlutterHybirdiOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		6D2A681320FF1D5FBCE93B0460258DFE /* Pods-FlutterHybirdiOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlutterHybirdiOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D843D6993C0BBD274EADF827B7D47B9 /* Pods-FlutterHybirdiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlutterHybirdiOS.modulemap"; sourceTree = "<group>"; };
+		6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		6F8F3E6FE548D82BC4736420176BDF78 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-umbrella.h"; sourceTree = "<group>"; };
+		6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		727E3D3D6296386D770889778669B940 /* FlutterPluginRegistrant-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlutterPluginRegistrant-umbrella.h"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		73C990B35BBB1C51802DA38AB2F6BC51 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests"; path = Pods_FlutterHybirdiOS_FlutterHybirdiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74398CE14E83E532057648569EE267C9 /* FlutterPluginRegistrant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterPluginRegistrant.debug.xcconfig; sourceTree = "<group>"; };
-		85C3020CF7F3843F43D4CFFFFA739CFF /* Pods-FlutterHybirdiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlutterHybirdiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		919B42AF3D11A25FF64C9B9DE7D1A96D /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-Info.plist"; sourceTree = "<group>"; };
 		9463190914FEFD41D9798944B8CB0EFB /* FlutterPluginRegistrant-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlutterPluginRegistrant-dummy.m"; sourceTree = "<group>"; };
-		97CBBC2C192167B1D13AC84DF386879C /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F4CF7FD914965084DB2A485DC9C0106 /* Pods-FlutterHybirdiOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlutterHybirdiOSTests-Info.plist"; sourceTree = "<group>"; };
+		9F823472941D4F5469828FB868D60B43 /* Pods-FlutterHybirdiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlutterHybirdiOS.release.xcconfig"; sourceTree = "<group>"; };
 		A1114C4E1ABED0CEA6CF33C0CAF45FBB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		AAFB3DF0437D0D078B2C637566903DCA /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A62E2B4E58B69FD604C2E516BA2F17BB /* Pods-FlutterHybirdiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlutterHybirdiOS-umbrella.h"; sourceTree = "<group>"; };
+		A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		B282807C5DB3F8DE65DAF7FFD0574DBC /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
-		B464620AFAEB7AFA95841C2F7871B8DA /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-umbrella.h"; sourceTree = "<group>"; };
-		B68FAD06AAEACC24B9654ED19DCEF7D5 /* Pods-FlutterHybirdiOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlutterHybirdiOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		BC9731420E0DA82B0C34B9F59EE4E4E9 /* Pods-FlutterHybirdiOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlutterHybirdiOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		C20697425EC3A09F7AEF55E50683BCA3 /* FlutterPluginRegistrant.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlutterPluginRegistrant.modulemap; sourceTree = "<group>"; };
+		C7F1B583D2A1EF57A7DD2C75892E898A /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.modulemap"; sourceTree = "<group>"; };
 		CAF480348573A4775E9F7AE2A6BCD97B /* FlutterPluginRegistrant-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlutterPluginRegistrant-prefix.pch"; sourceTree = "<group>"; };
-		D380031E6C418CEAA078C36FB9EA7B52 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CCA5A15ACA6C2DA476799FDFE6A7F97F /* Pods-FlutterHybirdiOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlutterHybirdiOSTests-Info.plist"; sourceTree = "<group>"; };
+		D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D269AB5C37F1724D1197B55E81A52A64 /* Pods-FlutterHybirdiOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlutterHybirdiOSTests-dummy.m"; sourceTree = "<group>"; };
 		DEDDA29AA50EA08B5A82A65138EF882C /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
 		DF7C6EBB9161EEF650EC12B4BB67E628 /* FlutterPluginRegistrant */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlutterPluginRegistrant; path = FlutterPluginRegistrant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E61853F4BC980592FE9B33D7C6C2EE95 /* Pods-FlutterHybirdiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlutterHybirdiOS-dummy.m"; sourceTree = "<group>"; };
+		DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
 		E76CA0599CA704299F3B7660E13B4A95 /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		EC691C2E20EBF96A5323376615A49758 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		F505055138B7ED006BB0092BD2AC30F1 /* Pods-FlutterHybirdiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlutterHybirdiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA75CE35217A344E023E31CF8141C3E7 /* Pods-FlutterHybirdiOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlutterHybirdiOSTests.modulemap"; sourceTree = "<group>"; };
+		FE8C218BDA83D2E0FAA56206A15F0054 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +215,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18A14B6DED34B2B14E2C445FD9BDD954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D291DC43ADE1116BAF1BF866BDB4D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		35AD496B2B1C19400ED7DA5FE7AEAE07 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -144,25 +231,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		655D834C7A565A244A4E3FAF7679BB9C /* Frameworks */ = {
+		ABFB91A82572E4BCC0F13D505BCFE4EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				520BAC66C710199BCFC53FFC25177FE2 /* Foundation.framework in Frameworks */,
+				8275FB2C979371BD6F5B2FBB19BA19AE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C07794CA23A38F8229DF765DAB074A83 /* Frameworks */ = {
+		CCB6E60691DB58C9D2C0F26733F25C2E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F88BD72988E86B34289D7BDBC1F3F086 /* Foundation.framework in Frameworks */,
+				78251F42EB680FB72F040A1986279CD2 /* Foundation.framework in Frameworks */,
+				8171D105E2C5CD3C1357D544942B4446 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		078D98767E5B1825B34E15C24D46F32E /* Pods-FlutterHybirdiOS */ = {
+			isa = PBXGroup;
+			children = (
+				6D843D6993C0BBD274EADF827B7D47B9 /* Pods-FlutterHybirdiOS.modulemap */,
+				6C8785CD4E2C77DB5AB76EE6C9987C38 /* Pods-FlutterHybirdiOS-acknowledgements.markdown */,
+				BC9731420E0DA82B0C34B9F59EE4E4E9 /* Pods-FlutterHybirdiOS-acknowledgements.plist */,
+				1B464DB19EC34475CDF38179C150D236 /* Pods-FlutterHybirdiOS-dummy.m */,
+				1C3E4F578030800576E2829F280ED63C /* Pods-FlutterHybirdiOS-frameworks.sh */,
+				36DCA50EB54356FD21EFA792010E378A /* Pods-FlutterHybirdiOS-Info.plist */,
+				A62E2B4E58B69FD604C2E516BA2F17BB /* Pods-FlutterHybirdiOS-umbrella.h */,
+				36E46849ABDA2C0B455ECE864A082B67 /* Pods-FlutterHybirdiOS.debug.xcconfig */,
+				9F823472941D4F5469828FB868D60B43 /* Pods-FlutterHybirdiOS.release.xcconfig */,
+			);
+			name = "Pods-FlutterHybirdiOS";
+			path = "Target Support Files/Pods-FlutterHybirdiOS";
+			sourceTree = "<group>";
+		};
 		0C25B94E028D47F84EC88F9C6BCF10FC /* Flutter */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,65 +278,85 @@
 			path = ../../flutter_module/.ios/Flutter;
 			sourceTree = "<group>";
 		};
-		21BE190A319DDC43143F835F9ACC0A09 /* Pods-FlutterHybirdiOS */ = {
+		0CCC0CD98AB951949302B433AFE762AD /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
-				4E9C4EB42E721880146FE90BC884DCCA /* Pods-FlutterHybirdiOS.modulemap */,
-				0AA477974CC04397917783442F799422 /* Pods-FlutterHybirdiOS-acknowledgements.markdown */,
-				51D871755D0EE80F546F48810E4B287F /* Pods-FlutterHybirdiOS-acknowledgements.plist */,
-				E61853F4BC980592FE9B33D7C6C2EE95 /* Pods-FlutterHybirdiOS-dummy.m */,
-				317AA6676D1B9C152D1AA45BDA655C9D /* Pods-FlutterHybirdiOS-Info.plist */,
-				32D0C53E013E0921939332FAC3189203 /* Pods-FlutterHybirdiOS-umbrella.h */,
-				25F7394CFE37EFF18E385EF9F2D3F79B /* Pods-FlutterHybirdiOS.debug.xcconfig */,
-				6E68EBAB9DAFD908889F3D00B69D77AB /* Pods-FlutterHybirdiOS.release.xcconfig */,
+				4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */,
+				EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */,
+				02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */,
+				9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */,
+				837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */,
+				B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */,
+				470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */,
+				6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */,
+				6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */,
+				EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */,
+				607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */,
+				A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */,
+				A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */,
+				D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */,
+				72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */,
+				30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */,
+				8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */,
+				27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */,
+				E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */,
+				047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */,
+				AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */,
+				86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */,
+				55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */,
+				342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */,
+				C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */,
 			);
-			name = "Pods-FlutterHybirdiOS";
-			path = "Target Support Files/Pods-FlutterHybirdiOS";
+			name = Masonry;
+			path = Masonry;
 			sourceTree = "<group>";
 		};
-		3E183E2A8D7DD10EC2B5A1498B4AF1DD /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				030DA2A75339953DE46812B021F55962 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.modulemap */,
-				AAFB3DF0437D0D078B2C637566903DCA /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-acknowledgements.markdown */,
-				D380031E6C418CEAA078C36FB9EA7B52 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-acknowledgements.plist */,
-				4BC8B5A5EB3656C7F195B432F905BB47 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-dummy.m */,
-				6DB801B665B241DEC17956DCD8A327A4 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-Info.plist */,
-				B464620AFAEB7AFA95841C2F7871B8DA /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-umbrella.h */,
-				97CBBC2C192167B1D13AC84DF386879C /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.debug.xcconfig */,
-				55680F9F0623F710E5D32B5A32A21FFF /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.release.xcconfig */,
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
-			name = "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests";
-			path = "Target Support Files/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		766ADD402079ECA0F95F09D81D52998C /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				21BE190A319DDC43143F835F9ACC0A09 /* Pods-FlutterHybirdiOS */,
-				3E183E2A8D7DD10EC2B5A1498B4AF1DD /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests */,
-				D6D334560C70D510C06CF2452BEDC649 /* Pods-FlutterHybirdiOSTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7CB0445450C76368699818CC9BA11089 /* Products */ = {
+		440B9CC9712D12040F32C899C05E9B30 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				DF7C6EBB9161EEF650EC12B4BB67E628 /* FlutterPluginRegistrant */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry */,
 				4FDE75E8E002B854A76D6729614200AA /* Pods-FlutterHybirdiOS */,
 				73C990B35BBB1C51802DA38AB2F6BC51 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests */,
 				12C7D1FBBFD42700B443950DDB7EE2C8 /* Pods-FlutterHybirdiOSTests */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		71822320FEB98D0882A5620AC1EA9F5D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				078D98767E5B1825B34E15C24D46F32E /* Pods-FlutterHybirdiOS */,
+				AC828A8CD752C3540CF50C12FC69BE27 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests */,
+				A23A1AFAE5BDF4BB994A6CE11E29F268 /* Pods-FlutterHybirdiOSTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CCC0CD98AB951949302B433AFE762AD /* Masonry */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		93B8CCB95F3F535D75DA027C44D59118 /* Support Files */ = {
@@ -270,6 +395,22 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		A23A1AFAE5BDF4BB994A6CE11E29F268 /* Pods-FlutterHybirdiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA75CE35217A344E023E31CF8141C3E7 /* Pods-FlutterHybirdiOSTests.modulemap */,
+				6D2A681320FF1D5FBCE93B0460258DFE /* Pods-FlutterHybirdiOSTests-acknowledgements.markdown */,
+				2515C0718795C5109B33EE7978E913D9 /* Pods-FlutterHybirdiOSTests-acknowledgements.plist */,
+				D269AB5C37F1724D1197B55E81A52A64 /* Pods-FlutterHybirdiOSTests-dummy.m */,
+				CCA5A15ACA6C2DA476799FDFE6A7F97F /* Pods-FlutterHybirdiOSTests-Info.plist */,
+				5B306E51A372C2E16373F249C5B9B69C /* Pods-FlutterHybirdiOSTests-umbrella.h */,
+				163F6B3DD29D33C625D8215E6D3B1627 /* Pods-FlutterHybirdiOSTests.debug.xcconfig */,
+				F505055138B7ED006BB0092BD2AC30F1 /* Pods-FlutterHybirdiOSTests.release.xcconfig */,
+			);
+			name = "Pods-FlutterHybirdiOSTests";
+			path = "Target Support Files/Pods-FlutterHybirdiOSTests";
+			sourceTree = "<group>";
+		};
 		A95135DC3DC55EDD6E2AE851A351550A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,39 +420,48 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		AC828A8CD752C3540CF50C12FC69BE27 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7F1B583D2A1EF57A7DD2C75892E898A /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.modulemap */,
+				1357D30670313CA73C499314D244DD0C /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-acknowledgements.markdown */,
+				294D467A06D26B9E728374BFB0991D77 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-acknowledgements.plist */,
+				2F42A4863F38A69450C173F0BA928748 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-dummy.m */,
+				45C8EE44315A5245BDF4FF6DDA3C9E51 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-frameworks.sh */,
+				919B42AF3D11A25FF64C9B9DE7D1A96D /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-Info.plist */,
+				6F8F3E6FE548D82BC4736420176BDF78 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-umbrella.h */,
+				FE8C218BDA83D2E0FAA56206A15F0054 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.debug.xcconfig */,
+				EC691C2E20EBF96A5323376615A49758 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.release.xcconfig */,
+			);
+			name = "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests";
+			path = "Target Support Files/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests";
+			sourceTree = "<group>";
+		};
+		C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */,
+				A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */,
+				DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */,
+				BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */,
+				6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */,
+				F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */,
+				419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				A95135DC3DC55EDD6E2AE851A351550A /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				7CB0445450C76368699818CC9BA11089 /* Products */,
-				766ADD402079ECA0F95F09D81D52998C /* Targets Support Files */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
+				440B9CC9712D12040F32C899C05E9B30 /* Products */,
+				71822320FEB98D0882A5620AC1EA9F5D /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D6D334560C70D510C06CF2452BEDC649 /* Pods-FlutterHybirdiOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				629329B40966B71B43B140F1DFD68B9C /* Pods-FlutterHybirdiOSTests.modulemap */,
-				28ED901910F89188616843149C09D4D3 /* Pods-FlutterHybirdiOSTests-acknowledgements.markdown */,
-				B68FAD06AAEACC24B9654ED19DCEF7D5 /* Pods-FlutterHybirdiOSTests-acknowledgements.plist */,
-				39CB9420D1D9514D41FFA6B860689BDF /* Pods-FlutterHybirdiOSTests-dummy.m */,
-				9F4CF7FD914965084DB2A485DC9C0106 /* Pods-FlutterHybirdiOSTests-Info.plist */,
-				686E6649A86B9C2E8BBFE8730A5FC274 /* Pods-FlutterHybirdiOSTests-umbrella.h */,
-				61E338D14D710CD38CBD6331AAC90670 /* Pods-FlutterHybirdiOSTests.debug.xcconfig */,
-				85C3020CF7F3843F43D4CFFFFA739CFF /* Pods-FlutterHybirdiOSTests.release.xcconfig */,
-			);
-			name = "Pods-FlutterHybirdiOSTests";
-			path = "Target Support Files/Pods-FlutterHybirdiOSTests";
 			sourceTree = "<group>";
 		};
 		E77C610096BE2AB390955E5610F227F3 /* Support Files */ = {
@@ -335,19 +485,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		658A2A2C4EF982C0DB7053D612018923 /* Headers */ = {
+		024AC54C3D7ACADB8067ADC5C037C67A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32DA59634B22BA20983E9C7D56EB0EB7 /* Pods-FlutterHybirdiOS-umbrella.h in Headers */,
+				6A9B285FE462E275C50D56B94F72B246 /* Pods-FlutterHybirdiOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		763872F75168BCBCF5234214102CDF12 /* Headers */ = {
+		99A8659D86DFD4C224D177332D003EDC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				069BC52870608763DFAE255B9ABAB064 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-umbrella.h in Headers */,
+				B4BE7728D87333785F811FED48CF134E /* MASCompositeConstraint.h in Headers */,
+				BEA99A49E5F8DA685E33DABA606041FF /* MASConstraint.h in Headers */,
+				A83A6757F6C0003332D57B41FE24BEEA /* MASConstraint+Private.h in Headers */,
+				1B433A1BF92BBD5811F61A000E4771C2 /* MASConstraintMaker.h in Headers */,
+				2839E3707C14798138E8A0C72ACE4C25 /* MASLayoutConstraint.h in Headers */,
+				31F7C35C8863FA25A741A884E21BE7D0 /* Masonry.h in Headers */,
+				B61AA5459C2B345AD6D84D8A5111C9CE /* Masonry-umbrella.h in Headers */,
+				0E8CCAE597756C61B2D7B60EEF4A29E4 /* MASUtilities.h in Headers */,
+				715AB2C777F6FCAB5EE0C667A909B698 /* MASViewAttribute.h in Headers */,
+				CEE7BDCC3F3073CBBF7A76BC6CF3E519 /* MASViewConstraint.h in Headers */,
+				8AE868BC3E2E6FC92F4717835180C47D /* NSArray+MASAdditions.h in Headers */,
+				E53FCD0CD1526B53074ED4EEF00131E9 /* NSArray+MASShorthandAdditions.h in Headers */,
+				BE050DABC9BF806B3379AFD2367F4194 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				3D0EFFE30E3193932A034220E3C4C0FA /* View+MASAdditions.h in Headers */,
+				61225B0B9AEC591476E30C9A575013B3 /* View+MASShorthandAdditions.h in Headers */,
+				B10646B6AF73D470221EF25A5DEEEB6F /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60700DAB6B46640886F641A3D79367E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE86657ACDD50C49A818D89E9158CDBE /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,16 +546,17 @@
 /* Begin PBXNativeTarget section */
 		3D83685255C03D119C42A7D134476762 /* Pods-FlutterHybirdiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2953B732532BC7921F3362DDE218780 /* Build configuration list for PBXNativeTarget "Pods-FlutterHybirdiOS" */;
+			buildConfigurationList = 12BACE15F1E6093713E347E324D1AE95 /* Build configuration list for PBXNativeTarget "Pods-FlutterHybirdiOS" */;
 			buildPhases = (
-				658A2A2C4EF982C0DB7053D612018923 /* Headers */,
-				69510F0373EB9728EB1D311B1F5D69DD /* Sources */,
-				655D834C7A565A244A4E3FAF7679BB9C /* Frameworks */,
-				6EA22B94B0CAD27682385273B8C7B27B /* Resources */,
+				024AC54C3D7ACADB8067ADC5C037C67A /* Headers */,
+				D032B378E843D61027F9A30083C94414 /* Sources */,
+				ABFB91A82572E4BCC0F13D505BCFE4EB /* Frameworks */,
+				AB2B5EB310654A849BE7D0F50FAD764B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4C40184796525E0A88F2614DBE15F354 /* PBXTargetDependency */,
 			);
 			name = "Pods-FlutterHybirdiOS";
 			productName = Pods_FlutterHybirdiOS;
@@ -391,22 +565,41 @@
 		};
 		423637BA6B715520AE9FFA098343D220 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE6279B78674DBB1D5CEE0D9AE496D48 /* Build configuration list for PBXNativeTarget "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests" */;
+			buildConfigurationList = 38DF352F9F23FCD1F2B0A729BE4A6DFF /* Build configuration list for PBXNativeTarget "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests" */;
 			buildPhases = (
-				763872F75168BCBCF5234214102CDF12 /* Headers */,
-				08EE86AFEB1E37943CE20726446E4C7A /* Sources */,
-				C07794CA23A38F8229DF765DAB074A83 /* Frameworks */,
-				2327124D2EEF2CE42BE35EBFB0E45D1A /* Resources */,
+				A60700DAB6B46640886F641A3D79367E /* Headers */,
+				4F1137A57679124395EB32ED2FA876D1 /* Sources */,
+				18A14B6DED34B2B14E2C445FD9BDD954 /* Frameworks */,
+				D7322F4095FA777E2A8BF005CFFC9131 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				44412CD3A75581C96A4FD4B66CED3230 /* PBXTargetDependency */,
-				EA8ED82EF82935170C340BAF3E3702F8 /* PBXTargetDependency */,
+				BE2A36D46030CCAD4305257727EFF235 /* PBXTargetDependency */,
+				1B74BD761B35AD3C8A99BE073B9FE336 /* PBXTargetDependency */,
+				F2A702A8FCEB2FF1F395A4CF727EBF47 /* PBXTargetDependency */,
 			);
 			name = "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests";
 			productName = Pods_FlutterHybirdiOS_FlutterHybirdiOSUITests;
 			productReference = 73C990B35BBB1C51802DA38AB2F6BC51 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 104EC9250BF4EDE104280490293C13C3 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				99A8659D86DFD4C224D177332D003EDC /* Headers */,
+				3003736003A11F9793D9EA6DC169AED7 /* Sources */,
+				CCB6E60691DB58C9D2C0F26733F25C2E /* Frameworks */,
+				4522D50300D635138BEDBF5E60D39B53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry */;
 			productType = "com.apple.product-type.framework";
 		};
 		83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */ = {
@@ -421,7 +614,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D463579E3B6BF5F5A0EA4CC517E9F3CF /* PBXTargetDependency */,
+				8F375EA2B302F4E3E61B3162449EDFF0 /* PBXTargetDependency */,
 			);
 			name = FlutterPluginRegistrant;
 			productName = FlutterPluginRegistrant;
@@ -440,9 +633,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				E2078D06CDDDFA2A8146519AF4A304C2 /* PBXTargetDependency */,
-				963B4C2EB46CEFCCF24E068299A7BD81 /* PBXTargetDependency */,
-				E0F768B535D4AEB3DDA3C3489107585B /* PBXTargetDependency */,
+				084F41B9F51112C9112F381ACA804C27 /* PBXTargetDependency */,
+				C8E11374FB37D475977290F7ED3D9484 /* PBXTargetDependency */,
+				DBD172DF56D1D09FF9A696F85DA4A85C /* PBXTargetDependency */,
 			);
 			name = "Pods-FlutterHybirdiOSTests";
 			productName = Pods_FlutterHybirdiOSTests;
@@ -467,12 +660,13 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 7CB0445450C76368699818CC9BA11089 /* Products */;
+			productRefGroup = 440B9CC9712D12040F32C899C05E9B30 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */,
 				83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
 				3D83685255C03D119C42A7D134476762 /* Pods-FlutterHybirdiOS */,
 				423637BA6B715520AE9FFA098343D220 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests */,
 				AEBBAF91FCEB8F9C6020CD4ADFE6D27E /* Pods-FlutterHybirdiOSTests */,
@@ -481,14 +675,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2327124D2EEF2CE42BE35EBFB0E45D1A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6EA22B94B0CAD27682385273B8C7B27B /* Resources */ = {
+		4522D50300D635138BEDBF5E60D39B53 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -502,7 +689,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB2B5EB310654A849BE7D0F50FAD764B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AC5425D4F4D4153C7FBD87B7C8C95626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7322F4095FA777E2A8BF005CFFC9131 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -521,19 +722,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		08EE86AFEB1E37943CE20726446E4C7A /* Sources */ = {
+		3003736003A11F9793D9EA6DC169AED7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F32674211F3ED5FE0203B23257BD23D /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-dummy.m in Sources */,
+				19300CF68F5718C6F9C3476F1A98C1DC /* MASCompositeConstraint.m in Sources */,
+				7B05A8DE072977F90AA84A0E98E23167 /* MASConstraint.m in Sources */,
+				4CC9B43AD90714A316815FAA71DC89A2 /* MASConstraintMaker.m in Sources */,
+				54BEFE9F75005D327641073B838C6776 /* MASLayoutConstraint.m in Sources */,
+				CECDB459AFB5AD0040AF86378F2DBF97 /* Masonry-dummy.m in Sources */,
+				53305278F1654F968B4E02DF71B098BE /* MASViewAttribute.m in Sources */,
+				E6FB269534400D40C1CE67D18EDD8A9A /* MASViewConstraint.m in Sources */,
+				C9375F078B54A9030D4B9C2E73222A5D /* NSArray+MASAdditions.m in Sources */,
+				C7D83D99D755676EF8A09CC77845BAF4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A1336977ADAAD492D6CFD089A8C6E358 /* View+MASAdditions.m in Sources */,
+				567ABE0681AA82748435E32386DE12D7 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69510F0373EB9728EB1D311B1F5D69DD /* Sources */ = {
+		4F1137A57679124395EB32ED2FA876D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDA1E1CDFD642100000AACA8D6DFF8C1 /* Pods-FlutterHybirdiOS-dummy.m in Sources */,
+				5DB27409D0D63F47C2F416DAEB229519 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D032B378E843D61027F9A30083C94414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB704BF6146E1D64DCDA60A91935CE2 /* Pods-FlutterHybirdiOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,41 +767,53 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		44412CD3A75581C96A4FD4B66CED3230 /* PBXTargetDependency */ = {
+		084F41B9F51112C9112F381ACA804C27 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Flutter;
 			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
-			targetProxy = A518C594CEC6767417FD2DB3EE507928 /* PBXContainerItemProxy */;
+			targetProxy = 618AC6C72E564E140B3561C4FAF280C8 /* PBXContainerItemProxy */;
 		};
-		963B4C2EB46CEFCCF24E068299A7BD81 /* PBXTargetDependency */ = {
+		1B74BD761B35AD3C8A99BE073B9FE336 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FlutterPluginRegistrant;
 			target = 83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */;
-			targetProxy = DD9C11BD56E390E291C7D3A43271A115 /* PBXContainerItemProxy */;
+			targetProxy = 34301D8610C085E70A519B5330CF95DF /* PBXContainerItemProxy */;
 		};
-		D463579E3B6BF5F5A0EA4CC517E9F3CF /* PBXTargetDependency */ = {
+		4C40184796525E0A88F2614DBE15F354 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = E2575D94500998041D2D4C86C00A5DCB /* PBXContainerItemProxy */;
+		};
+		8F375EA2B302F4E3E61B3162449EDFF0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Flutter;
 			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
-			targetProxy = E1E0D5B0F1FFA155A534565876D75ACD /* PBXContainerItemProxy */;
+			targetProxy = D32B093463E1FCEFDDDB841BDF434758 /* PBXContainerItemProxy */;
 		};
-		E0F768B535D4AEB3DDA3C3489107585B /* PBXTargetDependency */ = {
+		BE2A36D46030CCAD4305257727EFF235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = CD194855D52C59F54AA9A0EEA13DD669 /* PBXContainerItemProxy */;
+		};
+		C8E11374FB37D475977290F7ED3D9484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlutterPluginRegistrant;
+			target = 83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */;
+			targetProxy = 5ADA24E09F2961D143866857FD686DFD /* PBXContainerItemProxy */;
+		};
+		DBD172DF56D1D09FF9A696F85DA4A85C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-FlutterHybirdiOS";
 			target = 3D83685255C03D119C42A7D134476762 /* Pods-FlutterHybirdiOS */;
-			targetProxy = AF08F32681D03B7DDBC49FCC12920042 /* PBXContainerItemProxy */;
+			targetProxy = CABDCA0A6644F4CE6E3047C9D41A0264 /* PBXContainerItemProxy */;
 		};
-		E2078D06CDDDFA2A8146519AF4A304C2 /* PBXTargetDependency */ = {
+		F2A702A8FCEB2FF1F395A4CF727EBF47 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Flutter;
-			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
-			targetProxy = EA75FF49A29D09DBB0F22C2BF48E71B1 /* PBXContainerItemProxy */;
-		};
-		EA8ED82EF82935170C340BAF3E3702F8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FlutterPluginRegistrant;
-			target = 83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */;
-			targetProxy = B5AA9944EF813F0FD77DC64A30A3507A /* PBXContainerItemProxy */;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 67A36DDC68B16967DDCC44194E725164 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -607,7 +838,7 @@
 		};
 		1FDAD0A4CE1413564EFF13EA517F8319 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61E338D14D710CD38CBD6331AAC90670 /* Pods-FlutterHybirdiOSTests.debug.xcconfig */;
+			baseConfigurationReference = 163F6B3DD29D33C625D8215E6D3B1627 /* Pods-FlutterHybirdiOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -677,44 +908,6 @@
 			};
 			name = Release;
 		};
-		37A3099C8022F284BA8D3ED527F03573 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25F7394CFE37EFF18E385EF9F2D3F79B /* Pods-FlutterHybirdiOS.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FlutterHybirdiOS/Pods-FlutterHybirdiOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FlutterHybirdiOS/Pods-FlutterHybirdiOS.modulemap";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		4D1FAAD946D3F0502E2E5B8246380025 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F633B5474D7FD0C175E38BC171AF798 /* FlutterPluginRegistrant.release.xcconfig */;
@@ -762,6 +955,74 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		574336E93FEE5E80463961C3B5210418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83A1CD5A0D744E6C5C16EB552F459A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -826,6 +1087,60 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AA162AC7668566D3D647A7BBACA7E6E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC691C2E20EBF96A5323376615A49758 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/jiayuanfa/Desktop/FlutterSDK/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/jiayuanfa/Desktop/FlutterSDK/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -895,6 +1210,60 @@
 			};
 			name = Debug;
 		};
+		C56F7DA7119F66B51E3C0CBA7ABFBC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE8C218BDA83D2E0FAA56206A15F0054 /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/jiayuanfa/Desktop/FlutterSDK/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/jiayuanfa/Desktop/FlutterSDK/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		CBC2A7667BA60DB0BB1E95D62B5763D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 74398CE14E83E532057648569EE267C9 /* FlutterPluginRegistrant.debug.xcconfig */;
@@ -949,7 +1318,7 @@
 		};
 		DE815DFC6F2661E5CECAB78258D8F2E4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85C3020CF7F3843F43D4CFFFFA739CFF /* Pods-FlutterHybirdiOSTests.release.xcconfig */;
+			baseConfigurationReference = F505055138B7ED006BB0092BD2AC30F1 /* Pods-FlutterHybirdiOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1001,63 +1370,9 @@
 			};
 			name = Release;
 		};
-		E828EDE978A40960275E7DA0071EED97 /* Debug */ = {
+		E905332C6F8C537F6B4885FEB22722B3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97CBBC2C192167B1D13AC84DF386879C /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
-				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
-					"\"/Users/jiayuanfa/Desktop/FlutterSDK/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64\"",
-					"$(inherited)",
-				);
-				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
-					"\"/Users/jiayuanfa/Desktop/FlutterSDK/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Target Support Files/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.modulemap";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-framework",
-					Flutter,
-				);
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EE54BCC972A7F2B674F9F784DBDB34C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E68EBAB9DAFD908889F3D00B69D77AB /* Pods-FlutterHybirdiOS.release.xcconfig */;
+			baseConfigurationReference = 9F823472941D4F5469828FB868D60B43 /* Pods-FlutterHybirdiOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1093,13 +1408,12 @@
 			};
 			name = Release;
 		};
-		F5D506BF5C4FC45AED9554AE6F3FD7DA /* Release */ = {
+		EF4B7B7CA2C46587E527CAF2B7A1F576 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55680F9F0623F710E5D32B5A32A21FFF /* Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.release.xcconfig */;
+			baseConfigurationReference = 36E46849ABDA2C0B455ECE864A082B67 /* Pods-FlutterHybirdiOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1108,17 +1422,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
-				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
-					"\"/Users/jiayuanfa/Desktop/FlutterSDK/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
-					"$(inherited)",
-				);
-				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
-					"\"/Users/jiayuanfa/Desktop/FlutterSDK/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Target Support Files/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlutterHybirdiOS/Pods-FlutterHybirdiOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1127,12 +1431,9 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests/Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests.modulemap";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-framework",
-					Flutter,
-				);
+				MODULEMAP_FILE = "Target Support Files/Pods-FlutterHybirdiOS/Pods-FlutterHybirdiOS.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
@@ -1140,12 +1441,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1155,6 +1454,33 @@
 			buildConfigurations = (
 				CBC2A7667BA60DB0BB1E95D62B5763D3 /* Debug */,
 				4D1FAAD946D3F0502E2E5B8246380025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		104EC9250BF4EDE104280490293C13C3 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574336E93FEE5E80463961C3B5210418 /* Debug */,
+				83A1CD5A0D744E6C5C16EB552F459A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12BACE15F1E6093713E347E324D1AE95 /* Build configuration list for PBXNativeTarget "Pods-FlutterHybirdiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4B7B7CA2C46587E527CAF2B7A1F576 /* Debug */,
+				E905332C6F8C537F6B4885FEB22722B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38DF352F9F23FCD1F2B0A729BE4A6DFF /* Build configuration list for PBXNativeTarget "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56F7DA7119F66B51E3C0CBA7ABFBC09 /* Debug */,
+				AA162AC7668566D3D647A7BBACA7E6E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1177,29 +1503,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2953B732532BC7921F3362DDE218780 /* Build configuration list for PBXNativeTarget "Pods-FlutterHybirdiOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				37A3099C8022F284BA8D3ED527F03573 /* Debug */,
-				EE54BCC972A7F2B674F9F784DBDB34C7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		E183F9913F0116382D9E98CF3CAF48DF /* Build configuration list for PBXNativeTarget "Pods-FlutterHybirdiOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FDAD0A4CE1413564EFF13EA517F8319 /* Debug */,
 				DE815DFC6F2661E5CECAB78258D8F2E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EE6279B78674DBB1D5CEE0D9AE496D48 /* Build configuration list for PBXNativeTarget "Pods-FlutterHybirdiOS-FlutterHybirdiOSUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E828EDE978A40960275E7DA0071EED97 /* Debug */,
-				F5D506BF5C4FC45AED9554AE6F3FD7DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

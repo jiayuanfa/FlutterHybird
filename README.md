@@ -11,3 +11,4 @@
       MethodChannel('MethodChannelPlugin');
 -   static const BasicMessageChannel _basicMessageChannel =
       BasicMessageChannel('BasicMessageChannelPlugin', StringCodec()); 
+- iOS 项目基础：PCH文件、布局、懒加载
