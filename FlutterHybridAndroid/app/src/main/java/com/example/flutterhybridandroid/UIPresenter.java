@@ -41,6 +41,8 @@ public class UIPresenter implements View.OnClickListener {
      * 下面部分是Flutter的UI
      */
     private void initUI() {
+
+        // NativeUI
         ViewGroup contentView = activity.findViewById(android.R.id.content);
         View view = LayoutInflater.from(activity).inflate(R.layout.item_container, null);
         ViewGroup.LayoutParams layoutParams =

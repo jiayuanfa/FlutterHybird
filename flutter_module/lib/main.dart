@@ -63,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
           setState(() {
             showMessage = 'BasicMessageChannel:$message';
           });
-          return '收到Native的消息:$message';
+          return 'Dart回调';
         }));
     super.initState();
   }
@@ -87,7 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Container(
         alignment: Alignment.topLeft,
         decoration: const BoxDecoration(color: Colors.lightBlueAccent),
-        margin: const EdgeInsets.only(top: 10),
+        margin: const EdgeInsets.only(top: 100),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
