@@ -14,6 +14,5 @@
 - iOS 项目基础：PCH文件、布局、懒加载
 - Flutter项目与iOS项目通信
 - Flutter与iOS端与Android端通信效果：
-flutterAndAndroid.gif![image](https://user-images.githubusercontent.com/9419485/199454799-31d1f173-fa2e-47cc-9981-00300b9ea06b.png)
-222.gif![image](https://user-images.githubusercontent.com/9419485/199454841-84debea0-d9ec-469f-9f71-1f3c478124fb.png)
-
+![image](https://github.com/jiayuanfa/FlutterHybird/blob/main/flutterAndAndroid.gif)
+![image](https://github.com/jiayuanfa/FlutterHybird/blob/main/flutterAndiOS.gif)
