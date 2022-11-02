@@ -87,7 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Container(
         alignment: Alignment.topLeft,
         decoration: const BoxDecoration(color: Colors.lightBlueAccent),
-        margin: const EdgeInsets.only(top: 70),
+        margin: const EdgeInsets.only(top: 10),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [

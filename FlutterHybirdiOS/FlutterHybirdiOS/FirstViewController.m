@@ -12,7 +12,7 @@
 
 @property (nonatomic, strong) UIButton *button;
 @property (nonatomic, strong) UILabel *titleLab;
-
+@property (nonatomic, strong) UITextField *textField;
 
 @end
 
@@ -29,14 +29,22 @@
 
 - (void)goToAction:(UIButton *)sender{
     NSLog(@"点击了%@", sender.titleLabel.text);
+    
+    [self.navigationController pushViewController:[MainViewController new] animated:YES];
 }
 
 #pragma mark mas
 - (void)uiLayout {
     [self.view addSubview:self.button];
+    [self.view addSubview:self.textField];
     [self.button mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(@RHHeigth(20));
         make.left.equalTo(@RHHeigth(20));
+    }];
+    
+    [self.textField mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self.button.mas_bottom).with.offset(RHHeigth(20));
+        make.left.equalTo(self.button.mas_left);
     }];
 }
 
@@ -52,15 +60,12 @@
     return _button;
 }
 
--(UILabel *)titleLab {
-    if (!_titleLab) {
-        _titleLab = [UILabel new];
-        _titleLab.text = @"离岛免税商品溯源公共平台";
-        _titleLab.font = RHSacleFont(25);
-        _titleLab.textAlignment = NSTextAlignmentCenter;
-        _titleLab.textColor = RH_BlackTextColor;
+- (UITextField *)textField {
+    if (!_textField) {
+        _textField = [[UITextField alloc] init];
+        [_textField setPlaceholder:@"请输入要传递的内容"];
     }
-    return _titleLab;
+    return _textField;
 }
 
 @end
