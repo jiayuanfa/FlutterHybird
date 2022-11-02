@@ -5,12 +5,12 @@
 - Flutter与iOS混编
 - Flutter与Android工程通信的三种方式 
 
-## 初始化三种信息传递的Channel
+## Flutter项目与Android项目、iOS项目通信的三种方式
 - EventChannel
 - MethodChannel
 - BasicMessageChannel  
 
-## 各端接入步骤
+## 各端通信代码开发步骤
 - Android端项目的创建于Flutter的flutter_module模块关联
 - iOS端项目的创建、CocoaPods环境搭建、与flutter_module模块关联
 - iOS项目基础库搭建：PCH文件、布局库引入、UI开发
